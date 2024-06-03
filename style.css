@@ -622,21 +622,26 @@ h4 {
   h1 {
     text-align: center;
     font-size: 2.5rem;
-    padding: 0 0rem;
+    padding: 0 4rem;
+    margin-bottom: 1rem;
   }
 
   .hero-description {
     font-size: 1.4rem;
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 5rem;
+    margin-bottom: 1rem;
   }
-
+.cta-btn{
+  height: 57px;
+  width: 156px;
+}
   .hero-bottom-image {
     display: none;
   }
 
   .hero-image-container {
-    margin-right: 32rem;
+    margin-right: 30rem;
     position: relative;
   }
 
@@ -646,8 +651,8 @@ h4 {
   }
 
   .hero-images {
-    height: 400px;
-    width: 400px;
+    height: 376px;
+    width: 365px;
   }
 
   .hero-bg-effect {
@@ -664,7 +669,9 @@ h4 {
     margin-left: 0;
 
   }
-
+  .feature-content{
+    margin-left: 13rem;
+  }
   .feature-star {
     display: none;
   }
@@ -810,8 +817,8 @@ h4 {
   }
 
   .hero-img {
-    height: 500px;
-    width: 500px;
+    height: 439px;
+    width: 468px;
   }
 
   .features-container {

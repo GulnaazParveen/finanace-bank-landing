@@ -780,7 +780,7 @@ h4 {
   .header-container {
     margin: 0;
   }
-
+  
   nav ul {
     display: none;
   }
@@ -815,7 +815,18 @@ h4 {
     flex-direction: column;
     margin: 0;
   }
-
+ .hero-left{
+  margin-left: 4rem;
+ }
+ .hero-bottom{
+  padding-left: 6rem;
+ }
+ h1{
+  margin-bottom: 1rem;
+ }
+ .hero-description{
+  margin-bottom: 1rem;
+ }
   .hero-img {
     height: 439px;
     width: 468px;
@@ -826,10 +837,10 @@ h4 {
     margin-left: 0;
   }
 
-  /* .feature-description{
-    padding-right: 6rem;
-  } */
-
+  
+  .feature-sta{
+    display: none;
+  }
   .advantages {
     flex-direction: column;
   }

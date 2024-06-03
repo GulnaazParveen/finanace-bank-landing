@@ -522,18 +522,19 @@ h4 {
 
 .testimoial-heading {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.7rem;
+  font-size: 3rem;
   text-transform: capitalize;
   font-weight: 900;
 
 }
 
 .testimonial-sub-heading {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 1.5rem;
   margin-left: 1rem;
+  color: var(--color-light-black);
 
 }
 

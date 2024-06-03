@@ -302,7 +302,6 @@ h1 {
 }
 
 .hero-bg-effect {
-  margin-top: 18rem;
   margin-right: 4rem;
   transform: translateX(-40px);
   z-index: -1;
@@ -310,13 +309,15 @@ h1 {
 
 /* features section */
 .features-container {
-  margin-left: 6rem;
+  margin-left: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-
+.feature-contents{
+  margin-right: 6rem;
+}
 .feature-star {
   position: absolute;
   top: 0;
@@ -326,6 +327,7 @@ h1 {
 .feature-content {
   flex: 1;
   position: relative;
+  width: 600px;
 }
 
 .feature-background {
@@ -336,6 +338,9 @@ h1 {
 .feature-iphone {
   z-index: 2;
 }
+.hero-img{
+  width: 650px;
+}
 
 .feature-details {
   display: flex;
@@ -343,7 +348,6 @@ h1 {
   align-items: flex-start;
   flex-direction: column;
   flex: 2;
-  margin-left: 6rem;
 }
 
 .subheading {
@@ -417,7 +421,7 @@ h1 {
 /* advantages section */
 
 .advantages {
-  margin: 0 6rem;
+  margin: 0 2rem 0 4rem;
 }
 
 .advantages-icon-text {
@@ -482,7 +486,9 @@ h1 {
 .testimonial {
   margin: 2rem 6rem;
 }
-
+.testmonial-img{
+  width: 650px;
+}
 .testimonial-left {
   position: relative;
 }
@@ -526,7 +532,6 @@ h4 {
   font-size: 2rem;
   text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
-  margin-right: 8rem;
   margin-bottom: 1.5rem;
   margin-left: 1rem;
 
@@ -536,7 +541,7 @@ h4 {
   font-size: 1.5rem;
   color: var(--color-grey4);
   line-height: 2.2rem;
-  margin-right: 8rem;
+  margin-right: 2rem;
   margin-left: 1rem;
 }
 

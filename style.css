@@ -169,6 +169,7 @@ a {
   flex-direction: column;
   flex: 1;
   position: relative;
+  width: 600px;
 }
 
 .hero-bottom {
@@ -186,7 +187,7 @@ a {
 
 .hero-right {
   position: relative;
-  top: -100px;
+  top: -52px;
   flex: 1;
 }
 
@@ -279,6 +280,9 @@ h1 {
 
 .hero-image {
   position: absolute;
+}
+.hero-images{
+  height: 700px;
 }
 
 .iphone1 {
